@@ -5,7 +5,7 @@ interface IHeading {
 }
 const Heading = ({ children }: IHeading) => {
        return (
-              <h1 className='font-extrabold text-2xl md:text-4xl leading-snug  text-gray-800'>{children}</h1>
+              <h1 className='font-extrabold text-2xl md:text-4xl leading-loose  text-gray-800'>{children}</h1>
        )
 }
 
