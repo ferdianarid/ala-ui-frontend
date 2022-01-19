@@ -1,8 +1,16 @@
 * {
-    font-family: "SF Pro Display" sans-serif;
+    font-family: "Quicksand";
     margin: 0;
     scroll-behavior: smooth;
 }
+
+
+/* .background {
+    background-image: url("../public/homepage/banner.jpg");
+    max-width: 1440px;
+    height: 650px;
+    background-size: cover;
+} */
 
 @tailwind base;
 @tailwind components;
