@@ -64,7 +64,7 @@ export default function Product() {
                                                                              <Link
                                                                                     key={item.name}
                                                                                     href={item.href}>
-                                                                                    <a className="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50">
+                                                                                    <a className="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-yellow-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50">
                                                                                            <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white sm:h-12 sm:w-12">
                                                                                                   <item.icon aria-hidden="true" />
                                                                                            </div>
@@ -80,7 +80,7 @@ export default function Product() {
                                                                              </Link>
                                                                       ))}
                                                                </div>
-                                                               <div className="p-4 bg-gray-50 flex items-center justify-between">
+                                                               <div className="p-4 bg-yellow-50 flex items-center justify-between">
                                                                       <a
                                                                              href="##"
                                                                              className="flow-root px-2 py-2 transition duration-150 ease-in-out rounded-md hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
