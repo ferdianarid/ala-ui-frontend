@@ -1,6 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## ALA UI Frontend build with Next.js and Tailwind CSS
+
+<img src="https://raw.githubusercontent.com/ferdianar/ala-ui-frontend/master/public/header.png" alt="preview" />
 
 First, run the development server:
 
