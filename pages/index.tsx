@@ -29,7 +29,7 @@ const Home: NextPage = () => {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta httpEquiv="X-UA-Compatible" content="IE-Edge, chrome" />
 				<meta name="description" content="Sayuran ALA Berkualitas" />
-				<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800" rel="stylesheet" />
+				<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=optional" rel="stylesheet" />
 			</Head>
 			<div className="max-w-[1440px] mx-auto">
 				<div className="background">

@@ -27,5 +27,3 @@ export const DangerBadges = ({ children }: IBadges) => {
               <div className="py-1 px-3 bg-red-200 border border-red-600 rounded-full text-red-500 bg-opacity-25 w-fit font-bold text-xs mb-4 md:mb-2">{children}</div>
        )
 }
-
-export default { PrimaryBadges, SuccessBadges, WarningBadges, DangerBadges }

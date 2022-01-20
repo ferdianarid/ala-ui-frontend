@@ -13,6 +13,6 @@ export const HeadingMenu = ({ children }: IMenu) => {
 
 export const SubheadingMenu = ({ children, actionLink }: IMenu) => {
        return (
-              <a href={actionLink} target="_blank" className="no-underline text-sm font-semibold text-white hover:text-yellow-500 my-2">{children}</a>
+              <a href={actionLink} rel="noopener noreferrer" target="_blank" className="no-underline text-sm font-semibold text-white hover:text-yellow-500 my-2">{children}</a>
        )
 }
