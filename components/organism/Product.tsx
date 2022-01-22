@@ -80,18 +80,18 @@ export default function Product() {
                                                                              </Link>
                                                                       ))}
                                                                </div>
-                                                               <div className="p-4 bg-yellow-50 flex items-center justify-between">
+                                                               <div className="p-4 bg-white flex items-center justify-between">
                                                                       <a
                                                                              href="##"
-                                                                             className="flow-root px-2 py-2 transition duration-150 ease-in-out rounded-md hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
+                                                                             className="flow-root px-2 py-2 transition duration-150 ease-in-out rounded-md hover:bg-yellow-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
                                                                       >
                                                                              <span className="flex items-center">
                                                                                     <span className="text-sm font-medium text-gray-900">
-                                                                                           Documentation
+                                                                                           Keseluruhan Produk
                                                                                     </span>
                                                                              </span>
                                                                              <span className="block text-sm text-gray-500">
-                                                                                    Start integrating products and tools
+                                                                                    Lengkapi segala kebutuhan harimu disini.
                                                                              </span>
                                                                       </a>
                                                                       {/* <Image className="w-24" src={algoliaImage} /> */}
