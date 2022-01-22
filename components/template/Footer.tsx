@@ -8,7 +8,7 @@ import LogoALA from "../../public/homepage/LogoALA.svg"
 const Footer = () => {
        return (
               <div className="w-full mt-20 md:mt-0 bg-[#1D1D20] h-auto px-4 md:px-32 py-10 md:py-14">
-                     <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-10 text-center">
+                     <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-10 md:text-left text-center">
                             {/* Company Details */}
                             <MenuLayouts>
                                    <div className="w-full text-center md:text-left">
