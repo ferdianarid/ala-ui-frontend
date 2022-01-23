@@ -17,6 +17,7 @@ import Product from "./Product";
 function Navbar() {
        // State isOpen
        const [isOpen, setIsOpen] = useState(false);
+
        return (
               <nav className="w-full px-4 md:px-32">
                      <div className="flex items-center justify-between">
@@ -38,9 +39,9 @@ function Navbar() {
                                                  </Link>
                                                  {/* Product Category */}
                                                  <Product />
-                                                 <Link href="/kategori">
+                                                 <Link href="/blogs">
                                                         <a className="text-gray-800 font-bold hover:bg-yellow-500 hover:text-white px-3 py-2 rounded-xl text-sm">
-                                                               Kategori
+                                                               Blogs
                                                         </a>
                                                  </Link>
                                                  <Link href="/contact">
@@ -135,9 +136,9 @@ function Navbar() {
                                                  <Product />
 
                                                  <Link
-                                                        href="/kategori">
+                                                        href="/blogs">
                                                         <a className="text-gray-900 text-sm hover:bg-yellow-500 hover:text-white block px-3 py-2 rounded-md font-medium">
-                                                               Kategori
+                                                               Blogs
                                                         </a>
                                                  </Link>
 
