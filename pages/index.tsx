@@ -48,7 +48,7 @@ const Home: NextPage = () => {
 								<SecondaryButton>Pelajari Dulu</SecondaryButton>
 							</div>
 							<div className="w-full ml-0 md:w-[45%] md:ml-[5%] mt-10 md:mt-0">
-								<Image src={Cover} alt="market" />
+								<Image className='rounded-md' src={Cover} alt="market" />
 							</div>
 						</div>
 						{/* Features Section */}
