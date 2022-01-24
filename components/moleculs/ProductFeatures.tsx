@@ -14,7 +14,7 @@ const ProductFeatures = (props: IProductFeatures) => {
        const { srcImage, altImage, heading, actionLink, urlSource } = props
        return (
               <React.Fragment>
-                     <Image className='object-cover' src={srcImage} alt={altImage} />
+                     <Image className='hover:scale-110 transition-all duration-1000 object-cover' src={srcImage} alt={altImage} />
                      <div className="flex items-center justify-between md:block mt-2">
                             <div className="font-bold text-md text-yellow-600">{heading}</div>
                             <a href={urlSource} className="no-underline font-bold text-sm text-gray-600 flex items-center">{actionLink} &nbsp; <ChevronRightIcon width={20} /></a>
