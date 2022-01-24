@@ -99,18 +99,17 @@ const Marketplace = () => {
                                           <p className="text-sm md:text-md text-gray-600 font- normal leading-snug mb-4">Semua produk yang saat ini tersedia</p>
                                    </div>
 
-                                   <div className="w-[15rem] mx-auto md:w-full flex-col md:flex-row my-0  md:my-6 flex justify-between items-center gap-x-2">
-                                          <CardProduct images={paprika} title="Paprika" price="25.000" sold="247" location="Jombang" grade="4.5" category="Paprika" remaining="122" />
-                                          <CardProduct images={tomato} title="Tomat" price="28.000" sold="247" location="Malang" grade="4.7" category="Tomat" remaining="352" />
-                                          <CardProduct images={chili} title="Cabai" price="22.000" sold="247" location="Surabaya" grade="4.3" category="Cabai" remaining="222" />
-                                          <CardProduct images={kacang} title="Kacang" price="24.000" sold="247" location="Kediri" grade="4.8" category="Kacang" remaining="182" />
-                                   </div>
-
-                                   <div className="w-[15rem] mx-auto md:w-full flex-col md:flex-row my-0  md:my-6 flex justify-between items-center gap-x-2">
-                                          <CardProduct images={wortel} title="Wortel" price="17.000" sold="217" location="Jombang" grade="4.5" category="Wortel" remaining="122" />
-                                          <CardProduct images={labu} title="Labu" price="35.000" sold="427" location="Malang" grade="4.7" category="Labu" remaining="352" />
-                                          <CardProduct images={kubis} title="Kubis" price="42.000" sold="87" location="Surabaya" grade="4.3" category="Kubis" remaining="222" />
-                                          <CardProduct images={seledri} title="Seledri" price="32.000" sold="127" location="Kediri" grade="4.8" category="Seledri" remaining="182" />
+                                   <div className="mx-auto md:w-full flex-col md:flex-row my-0  md:my-6 flex justify-between items-center gap-x-2">
+                                          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                                                 <CardProduct images={paprika} title="Paprika" price="25.000" sold="247" location="Jombang" grade="4.5" category="Paprika" remaining="122" />
+                                                 <CardProduct images={tomato} title="Tomat" price="28.000" sold="247" location="Malang" grade="4.7" category="Tomat" remaining="352" />
+                                                 <CardProduct images={chili} title="Cabai" price="22.000" sold="247" location="Surabaya" grade="4.3" category="Cabai" remaining="222" />
+                                                 <CardProduct images={kacang} title="Kacang" price="24.000" sold="247" location="Kediri" grade="4.8" category="Kacang" remaining="182" />
+                                                 <CardProduct images={wortel} title="Wortel" price="17.000" sold="217" location="Jombang" grade="4.5" category="Wortel" remaining="122" />
+                                                 <CardProduct images={labu} title="Labu" price="35.000" sold="427" location="Malang" grade="4.7" category="Labu" remaining="352" />
+                                                 <CardProduct images={kubis} title="Kubis" price="42.000" sold="87" location="Surabaya" grade="4.3" category="Kubis" remaining="222" />
+                                                 <CardProduct images={seledri} title="Seledri" price="32.000" sold="127" location="Kediri" grade="4.8" category="Seledri" remaining="182" />
+                                          </div>
                                    </div>
                             </div>
                      </HomeLayouts>
