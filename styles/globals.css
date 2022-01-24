@@ -16,7 +16,6 @@
     height: 250px;
     width: 100%;
     border-radius: 8px;
-    margin-top: 30px;
 }
 
 .swiper-slide {
@@ -25,6 +24,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.discount {
+    text-decoration: line-through;
+}
+
+.cover {
+    height: 400px;
 }
 
 @tailwind base;
