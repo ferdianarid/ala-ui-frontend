@@ -24,7 +24,7 @@ const CardProduct = (props: ICardProduct) => {
        const { images, title, price, location, grade, category, sold, remaining } = props
        return (
               <React.Fragment>
-                     <div className="bg-white border border-gray-200 my-3 md:my-0 p-4 rounded-xl h-auto relative">
+                     <div className="bg-white w-full border border-gray-200 p-3 md:p-4 rounded-xl h-auto relative">
                             <Image className='cover rounded-lg object-cover' width="500px" height="350px" src={images} alt="travel" />
                             <SecondaryCategoryBadge>{category}</SecondaryCategoryBadge>
                             {/* card body */}
@@ -35,7 +35,7 @@ const CardProduct = (props: ICardProduct) => {
                                    </div>
                                    <div className="flex items-center justify-between">
                                           <p className="discount text-xs flex items-center font-bold text-gray-500 pt-1">IDR 50.000</p>
-                                          <p className='text-sm font-bold bg-yellow-500 bg-opacity-10 text-yellow-500 py-1 px-2 rounded-md my-2'>Save 50%</p>
+                                          <p className='text-xs md:text-sm font-bold bg-yellow-500 bg-opacity-10 text-yellow-500 py-1 px-2 rounded-md my-2'>Save 50%</p>
                                    </div>
 
                                    <p className="text-xs font-normal text-gray-500 py-1">{remaining} /pcs tersisa</p>
