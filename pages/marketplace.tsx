@@ -9,7 +9,6 @@ import SwiperCore, { Pagination, Navigation } from 'swiper'
 import CardCategory from '../components/moleculs/CardCategory'
 import { Heading, Subheading } from '../components/atoms/text/Heading'
 
-
 import VegetableOne from "../public/homepage/vegetableOne.jpg"
 import VegetableTwo from "../public/homepage/vegetableTwo.jpg"
 import VegetableThree from "../public/homepage/vegetableThree.jpg"
@@ -18,9 +17,10 @@ import chili from "../public/homepage/cabaimerah.jpg"
 import banner from "../public/homepage/banner1.jpg"
 import tomato from "../public/homepage/tomato.jpg"
 import paprika from "../public/homepage/paprika.jpeg"
-
+import kacang from "../public/homepage/kacang.jpg"
 
 import 'swiper/css'
+import CardProduct from '../components/moleculs/CardProduct'
 
 const Marketplace = () => {
        return (
@@ -34,7 +34,16 @@ const Marketplace = () => {
                             <meta name="description" content="Marketplace Produk" />
                      </Head>
                      <HomeLayouts>
-                            <div className="mt-10">
+                            <div className="appbar w-full flex flex-col md:flex-row justify-between items-center mt-[120px]">
+                                   <input className='w-full md:w-[450px] mb-6 md:mb-0 py-2 px-4 border border-gray-200 rounded-md' type="search" name="search" id="search" placeholder='Cari disini' />
+                                   <h1 className='flex items-center gap-x-2 font-bold text-xs text-gray-700  hover:cursor-pointer'>
+                                          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                                          </svg>
+
+                                          <span className='text-xs font-normal'>Dikirim ke </span> Jombang, Jawa Timur</h1>
+                            </div>
+                            <div className="mt-2 md:mt-8">
                                    {/* Carousels */}
                                    <Swiper
                                           loop={true}
@@ -58,16 +67,30 @@ const Marketplace = () => {
                                    </Swiper>
                             </div>
                             {/* Recommendation Product */}
-                            <div className="w-full my-8">
+                            <div className="w-full my-2 md:my-8">
                                    <h1 className="text-2xl font-bold text-gray-800">Rekomendasi Produk</h1>
-                                   <p className="text-sm md:text-md text-gray-600 py-4 font-normal leading-snug">Produk rekomendasi yang bisa memenuhi kebutuhanmu</p>
+                                   <p className="text-sm md:text-md text-gray-600 py-2 mb-4 font-normal leading-snug">Produk rekomendasi yang bisa memenuhi kebutuhanmu</p>
                                    {/* Card Recommendation */}
-                                   <div className="w-full flex items-center justify-between gap-x-8 mb-20">
+                                   <div className="w-full flex items-center justify-between gap-x-2 hover:cursor-pointer md:gap-x-8 mb-8">
                                           <CardCategory category="Tomat" imgCategory={tomato} altcategory="tomat" />
                                           <CardCategory category="Cabai" imgCategory={chili} altcategory="cabai" />
                                           <CardCategory category="Paprika" imgCategory={paprika} altcategory="paprika" />
                                    </div>
                                    {/* All Product */}
+                                   <div className="">
+                                          <div className="flex justify-between items-center">
+                                                 <h1 className="text-2xl font-bold text-gray-800">Semua Produk</h1>
+                                                 <p className="text-sm md:text-md text-gray-600 py-2 font-semibold leading-snug">Lihat semua</p>
+                                          </div>
+                                          <p className="text-sm md:text-md text-gray-600 font- normal leading-snug mb-4">Semua produk yang saat ini tersedia</p>
+                                   </div>
+
+                                   <div className="w-full flex justify-between items-center gap-x-2">
+                                          <CardProduct images={paprika} title="Paprika" price="25.000" sold="247" location="Jombang" grade="4.5" category="Paprika" remaining="122" />
+                                          <CardProduct images={tomato} title="Tomat" price="28.000" sold="247" location="Malang" grade="4.7" category="Tomat" remaining="352" />
+                                          <CardProduct images={chili} title="Cabai" price="22.000" sold="247" location="Surabaya" grade="4.3" category="Cabai" remaining="222" />
+                                          <CardProduct images={kacang} title="Kacang" price="24.000" sold="247" location="Kediri" grade="4.8" category="Kacang" remaining="182" />
+                                   </div>
                             </div>
                      </HomeLayouts>
               </React.Fragment >

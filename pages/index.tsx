@@ -36,7 +36,7 @@ const Home: NextPage = () => {
 					{/* Home Layouts */}
 					<HomeLayouts>
 						{/* Header Section */}
-						<div className="flex flex-col md:flex-row justify-between items-center mt-12 md:mb-6 md:mt-[80px]">
+						<div className="flex flex-col md:flex-row justify-between items-center mt-32 md:mb-6 md:mt-[170px]">
 							{/* Heading */}
 							<div className="w-full md:w-[50%]">
 								{/* Badge Information */}
