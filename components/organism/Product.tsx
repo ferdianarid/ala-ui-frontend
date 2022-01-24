@@ -7,25 +7,25 @@ const solutions = [
        {
               name: 'Sayuran Berkualitas',
               description: 'Sayuran segar langsung dari Petani',
-              href: '/sayuran',
+              href: 'products/sayuran',
               icon: IconOne,
        },
        {
               name: 'Daging Segar',
               description: 'Daging yang segar dan padat',
-              href: '/daging',
+              href: 'products/daging',
               icon: IconTwo,
        },
        {
               name: 'Makanan Sayur',
               description: 'Makanan yang dibuat murni dari sayur',
-              href: '/snack',
+              href: 'products/snack',
               icon: IconThree,
        },
        {
               name: 'Menu Kreatif',
               description: 'Inovasi Produk yang dibuat dari sayur ',
-              href: '/inovasi',
+              href: 'products/inovasi',
               icon: IconOne,
        },
 ]
